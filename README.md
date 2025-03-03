@@ -92,3 +92,33 @@ Execute previous "Schema information" queries to check new column number and nam
 
 #### Expected results
 ![image](https://github.com/user-attachments/assets/6217d927-fce8-4875-82d2-f17ee5dfb447)
+
+---
+
+### Unique ids
+#### Requirements
+1. Write a query that counts the number of unique `id`s (may take a few minutes)
+
+#### Expected results
+![image](https://github.com/user-attachments/assets/53edcf17-127c-4d12-b9ae-5b8f6149f411)
+
+### No "locations"
+#### Requirements
+1. Write a query that counts the number of addresses with neither `code_postal` nor `code_insee`
+
+#### Expected results
+![image](https://github.com/user-attachments/assets/5e9db922-221b-4249-aa37-ee3e8eb14b37)
+
+### Stranger thing
+#### Requirements
+1. Write a query that counts the number of addresses with `numero` is `0`
+
+#### Expected results
+![image](https://github.com/user-attachments/assets/14132847-4ce5-4c1b-b6fa-2a3703bd0518)
+
+### Type conversion
+#### Requirements
+1. Write a query that retrieves only the `id` and `numero` of the addresses but `numero` should be returned twice, one as "text" and once as "integer", order by `numero` (as "integer") descending and limit le number of rows to 10
+
+#### Expected results
+![image](https://github.com/user-attachments/assets/7a91e729-74b3-44ee-9f84-b0f6c86049e0)
